@@ -1,14 +1,18 @@
-body {
-    background-color: lightgray;
-    margin: 30px;
-}
-
-h1 {
-    color: darkblue;
-    font-family: Arial, sans-serif;
-}
-
-p {
-    color: darkslategray;
-    font-family: Georgia, serif;
-}
+* { box-sizing: border-box; }
+body { margin: 0; background-color: #111111; color: #eeeeee; font-family: Arial, Helvetica, sans-serif; line-height: 1.7; }
+header { background-color: #1b1b1b; text-align: center; padding: 40px 20px; border-bottom: 3px solid turquoise; }
+header h1 { margin: 0; color: turquoise; font-size: 2.5rem; }
+header p { margin-top: 10px; color: #cccccc; }
+nav { margin-top: 25px; }
+nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+nav a:hover { color: turquoise; }
+main { max-width: 900px; margin: auto; padding: 40px 20px; }
+section { margin-bottom: 50px; }
+h2 { color: turquoise; border-bottom: 1px solid #444444; padding-bottom: 10px; }
+p { margin-bottom: 20px; }
+.photo-section { text-align: center; }
+.photo-section img { display: block; width: 100%; max-width: 650px; height: auto; margin: 25px auto; border-radius: 8px; }
+.button { display: inline-block; background-color: turquoise; color: #111111; padding: 12px 20px; margin-top: 10px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+.button:hover { background-color: white; }
+footer { background-color: #1b1b1b; text-align: center; padding: 20px; color: #aaaaaa; border-top: 1px solid #333333; }
+@media (max-width: 600px) { header h1 { font-size: 2rem; } nav a { display: block; margin: 10px 0; } main { padding: 25px 15px; } }
